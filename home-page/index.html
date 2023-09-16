@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Links to Google fonts for the 'DM Sans' and 'Poppins' font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>MovieBox | Home page</title>
+</head>
+<body>
+
+    <main>
+        <header>
+            <div class="wrapper">
+                <!-- Navigation bar -->
+                <nav>
+                    <div class="logo">
+                        <img src="../images/tv.svg" alt="MovieBox Logo" >
+                        <span>MovieBox</span>
+                    </div>
+    
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="What do you want to watch?"><img src="../images/Search.svg" alt="">
+                    </div>
+    
+                    <div class="menu">
+                        <span>Sign in</span>
+                        <img src="../images/Menu alt 4.svg" alt="">
+                    </div>
+                </nav>
+
+                <!-- End of navigation bar -->
+
+                <div class="hero-section">
+                    <div class="left">
+                        <h1>John Wick 3 : Parabellum</h1>
+
+                        <div class="rating">
+                            <div class="imdb">
+                                <img src="../images/imdb.svg" alt="">
+                                <span>86.0 / 100</span>
+                            </div>
+                            <div class="rotten-tomatoes">
+                                <img src="../images/tomato.svg" alt="">
+                                <span>97%</span>
+                            </div>
+                        </div>
+
+                        <div class="desc">
+                            <p>John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.</p>
+                        </div>
+
+                        <div class="button">
+                            <img src="../images/Play.svg" alt="">
+                            <span>Watch trailer</span>
+                        </div>
+                    </div>
+
+                    <div class="right">
+                        <div class="page-number">
+                            <img src="../images/rectangle.svg" alt=""><span>1</span>
+                        </div>
+                        <div class="page-number">
+                            <img src="../images/rectangle.svg" alt=""><span>2</span>
+                        </div>
+                        <div class="page-number">
+                            <img src="../images/rectangle.svg" alt=""><span>3</span>
+                        </div>
+                        <div class="page-number">
+                            <img src="../images/rectangle.svg" alt=""><span>4</span>
+                        </div>
+                        <div class="page-number">
+                            <img src="../images/rectangle.svg" alt=""><span>5</span>
+                        </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="featured-movie">
+            <div class="wrapper">
+                <div class="title">
+                    <h1>Featured Movie</h1>
+                    <div class="more">
+                        <span>See more</span><img src="../images/chevron-right.svg" alt="">
+                    </div>
+                </div>
+                
+                <div class="movies-section">
+                    <div class="movie-card" id="movie-1">
+                        <div class="movie-poster">
+                            <img src="../images/movie-1.png" alt="Stranger Things">
+                        </div>
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date">USA, 2016 - Current</p>
+                        </div>
+                        <div class="movie-title">
+                            <h3>Stranger Things</h3>
+                        </div>
+                        <div class="movie-rating">
+                            <div class="imbd">
+                                <img src="../images/imdb.svg" alt="">
+                                <p>86.0 / 100</p>
+                            </div>
+                            <div class="rotten-tomatoes">
+                                <img src="../images/tomato.svg" alt="">
+                                <p>97%</p>
+                            </div>
+                        </div>
+                        <div class="movie-genre">
+                            <p>Action, Adventure, Horror</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card" id="movie-2">
+                        <div class="movie-poster">
+                            <img src="../images/movie-2.png" alt="Batman Begins">
+                        </div>
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date"></p>
+                        </div>
+                        <div class="movie-title">
+                            <h3>Batman Begins</h3>
+                        </div>
+                        <div class="movie-rating">
+                            <div class="imbd">
+                                <img src="../images/imdb.svg" alt="">
+                                <p>82.0 / 100</p>
+                            </div>
+                            <div class="rotten-tomatoes">
+                                <img src="../images/tomato.svg" alt="">
+                                <p>70%</p>
+                            </div>
+                        </div>
+                        <div class="movie-genre">
+                            <p>Action, Adventure</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card" id="movie-3">
+                        <div class="movie-poster">
+                            <img src="../images/movie-3.png" alt="Spider-Man : Into The Spider Verse">
+                        </div>
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date"></p>
+                        </div>
+                        <div class="movie-title">
+                            <h3>Spider-Man : Into The Spider Verse</h3>
+                        </div>
+                        <div class="movie-rating">
+                            <div class="imbd">
+                                <img src="../images/imdb.svg" alt="">
+                                <p>84.0 / 100</p>
+                            </div>
+                            <div class="rotten-tomatoes">
+                                <img src="../images/tomato.svg" alt="">
+                                <p>87%</p>
+                            </div>
+                        </div>
+                        <div class="movie-genre">
+                            <p>Animaion, Action, Adventure</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card" id="movie-4">
+                        <div class="movie-poster">
+                            <img src="../images/movie-4.png" alt="Dunkirk">
+                        </div>
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date"></p>
+                        </div>
+                        <div class="movie-title">
+                            <h3>Dunkirk</h3>
+                        </div>
+                        <div class="movie-rating">
+                            <div class="imbd">
+                                <img src="../images/imdb.svg" alt="">
+                                <p>78.0 / 100</p>
+                            </div>
+                            <div class="rotten-tomatoes">
+                                <img src="../images/tomato.svg" alt="">
+                                <p>94%</p>
+                            </div>
+                        </div>
+                        <div class="movie-genre">
+                            <p>Action, Drama, History</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card" id="movie-5">
+                        <div class="movie-poster">
+                            <img src="../images/movie-5.png" alt="Dune">
+                        </div>
+
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date"></p>
+                        </div>
+
+                        <div class="movie-title">
+                            <h3>Dune</h3>
+                        </div>
+
+                        <div class="movie-rating">
+                            <div class="imbd">
+                                <img src="../images/imdb.svg" alt="">
+                                <p>84.0 / 100</p>
+                            </div>
+                            <div class="rotten-tomatoes">
+                                <img src="../images/tomato.svg" alt="">
+                                <p>75%</p>
+                            </div>
+                        </div>
+
+                        <div class="movie-genre">
+                            <p>Action, Adventure, Drama</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card" id="movie-6">
+                        <div class="movie-poster">
+                            <img src="../images/movie-6.png" alt="No Time To Die">
+                        </div>
+
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date"></p>
+                        </div>
+
+                        <div class="movie-title">
+                            <h3>No Time To Die</h3>
+                        </div>
+
+                        <div class="movie-rating">
+                            <div class="imbd">
+                                <img src="../images/imdb.svg" alt="">
+                                <p>76.0 / 100</p>
+                            </div>
+                            <div class="rotten-tomatoes">
+                                <img src="../images/tomato.svg" alt="">
+                                <p>68%</p>
+                            </div>
+                        </div>
+
+                        <div class="movie-genre">
+                            <p>Action, Adventure, Thriller</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card" id="movie-7">
+                        <div class="movie-poster">
+                            <img src="../images/movie-7.png" alt="Shang-Chi and the Legend of the Ten Rings">
+                        </div>
+
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date"></p>
+                        </div>
+
+                        <div class="movie-title">
+                            <h3>Shang-Chi and the Legend of the Ten Rings</h3>
+                        </div>
+                        
+                        <div class="movie-rating">
+                            <div class="imbd">
+                                <img src="../images/imdb.svg" alt="">
+                                <p>79.0 / 100</p>
+                            </div>
+                            <div class="rotten-tomatoes">
+                                <img src="../images/tomato.svg" alt="">
+                                <p>71%</p>
+                            </div>
+                        </div>
+
+                        <div class="movie-genre">
+                            <p>Action, Adventure, Fantasy</p>
+                        </div>
+                    </div>
+
+                    <div class="movie-card" id="movie-8">
+                        <div class="movie-poster">
+                            <img src="../images/movie-8.png" alt="Don't Breathe 2">
+                        </div>
+
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date"></p>
+                        </div>
+
+                        <div class="movie-title">
+                            <h3>Don't Breathe 2</h3>
+                        </div>
+                        
+                        <div class="movie-rating">
+                            <div class="imbd">
+                                <img src="../images/imdb.svg" alt="">
+                                <p>61.0 / 100</p>
+                            </div>
+                            <div class="rotten-tomatoes">
+                                <img src="../images/tomato.svg" alt="">
+                                <p>46%</p>
+                            </div>
+                        </div>
+
+                        <div class="movie-genre">
+                            <p>Action, Drama, Horror </p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="movie-card" id="movie-9">
+                        <div class="movie-poster"></div>
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date"></p>
+                        </div>
+                        <div class="movie-title"></div>
+                        <div class="movie-rating"></div>
+                        <div class="movie-genre"></div>
+                    </div>
+                    <div class="movie-card" id="movie-10">
+                        <div class="movie-poster"></div>
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date"></p>
+                        </div>
+                        <div class="movie-title"></div>
+                        <div class="movie-rating"></div>
+                        <div class="movie-genre"></div>
+                    </div>
+                    <div class="movie-card" id="movie-11">
+                        <div class="movie-poster"></div>
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date"></p>
+                        </div>
+                        <div class="movie-title"></div>
+                        <div class="movie-rating"></div>
+                        <div class="movie-genre"></div>
+                    </div>
+                    <div class="movie-card" id="movie-12">
+                        <div class="movie-poster"></div>
+                        <div class="movie-release-date">
+                            <p data-testid:="movie-release-date"></p>
+                        </div>
+                        <div class="movie-title"></div>
+                        <div class="movie-rating"></div>
+                        <div class="movie-genre"></div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="social-links">
+                <img src="../images/facebook.svg" alt="">
+                <img src="../images/instagram.svg" alt="">
+                <img src="../images/twitter.svg" alt="">
+                <img src="../images/youtube.svg" alt="">
+            </div>
+            <div class="links">
+                <p>Conditions of Use</p>
+                <p>Privacy & Policy</p>
+                <p>Press Room</p>
+            </div>
+            <div class="copyright">
+                <p>© 2021 MovieBox by Adriana Eka Prayudha</p>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>
