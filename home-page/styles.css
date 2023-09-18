@@ -1,0 +1,6 @@
+:root {
+    --main-color: hsla(345, 83%, 41%, 1);
+    --white: hsla(0, 0%, 100%, 1);
+    --primary-text-color: hsla(221, 39%, 11%, 1);
+    --light-text-color: hsla(218, 11%, 65%, 1)
+}
